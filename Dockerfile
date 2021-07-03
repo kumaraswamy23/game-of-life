@@ -6,3 +6,5 @@ ENV WAR_DST_PATH=/usr/local/tomcat/webapps/
 ADD gameoflife.war ${WAR_DST_PATH}/gameoflife.war
 EXPOSE 8080
 CMD ["/usr/local/tomcat/bin/catalina.sh","run"]
+
+#end
