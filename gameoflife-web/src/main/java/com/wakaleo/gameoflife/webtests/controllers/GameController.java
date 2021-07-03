@@ -30,6 +30,7 @@ public class GameController {
         ModelAndView mav = new ModelAndView("game/edit");
         Universe universe = new Universe();
         mav.addObject("universe", universe);
+        System.out.println("Testing");
         thinkABit(250); // Pause for random time
         return mav;
     }
