@@ -31,6 +31,7 @@ public class GameController {
         Universe universe = new Universe();
         mav.addObject("universe", universe);
         System.out.println("Testing");
+        System.out.println("Testing121212");
         thinkABit(250); // Pause for random time
         return mav;
     }
